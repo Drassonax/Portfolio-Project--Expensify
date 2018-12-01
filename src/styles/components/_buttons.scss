@@ -1,0 +1,39 @@
+.button {
+    background: $blue;
+    color: white;
+    border: none;
+    padding: $s-size;
+    font-weight: 300;
+    font-size: $font-size-large;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 1;
+}
+
+.button--link {
+    background: none;
+}
+
+.button--secondary {
+    background: #888;
+    margin-bottom: 50px;
+}
+
+.modal-buttons__layout {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modal-button {
+    width: 100px;
+    height: 40px;
+    background: $blue;
+    color: white;
+    border: none;
+    padding: $s-size;
+    font-weight: 300;
+    font-size: $font-size-large;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 1;
+}
